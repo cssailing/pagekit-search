@@ -1,0 +1,21 @@
+{
+    "name": "pagekit/search",
+    "module": "search",
+    "type": "pagekit-extension",
+    "version": "1.0.18",
+    "title": "Search",
+    "description": "Add a configurable search form to your site.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Pagekit",
+        "email": "info@Pagekit.ru",
+        "homepage": "https://Pagekit.com/"
+    }],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}
