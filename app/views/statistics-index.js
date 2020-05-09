@@ -65,7 +65,6 @@ const StatisticDirectives = {
 
     methods: {
         load() {
-            console.log(this.config.filter);
             this.$http.post('api/search/statistics{/id}', { filter: this.config.filter, page: this.config.page, view: this.view, interval: this.interval })
                 .then(res => {
                     this.keywords = res.data.keywords;
