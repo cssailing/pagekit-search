@@ -57,7 +57,8 @@ Clone Repository
 $ git clone git@github.com:cssailing/pagekit-search.git project-folder
 $ cd project-folder
 ```
-##Important
+
+## Important
 make sure the mysql server sql_mode!=only_full_group_by
 
 ## Usage
