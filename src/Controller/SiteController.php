@@ -505,7 +505,7 @@ class SiteController
 		return [
 			'$view' => [
 				'title'		 => __('Search'),
-				'name' => 'search:views/search.php'
+				'name' => 'views/search.php'
 				],
 			'posts'				=> [], 
 			'searchword'		=>  $searchword,
